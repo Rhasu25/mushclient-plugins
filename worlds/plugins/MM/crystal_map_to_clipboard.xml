@@ -89,7 +89,7 @@ Author: Ruthgul
   <trigger
    name="start_map_capture"
    keep_evaluating="y"
-   match="^(This level 15 item has the attributes\: identified insulated no\-save|\*A tightly\-rolled scroll will last approximately (.+) more Alyrian minute(|s)\.)$"
+   match="^Item \'a tightly\-rolled scroll\' is type parchment\, alignment 0\, made of paper \(in \(new\) condition\)\,\nhas keywords \'crystalquest.+ magic map scroll taramine\'\.\nThis item weighs 0 stones and 0 pebbles\, and is valued at 1 gold\. \nThis level 15 item has the attributes\: no\-save\n\*A tightly\-rolled scroll will last approximately .+ more Alyrian minutes\.$"
    regexp="y"
    send_to="12"
    sequence="100"
